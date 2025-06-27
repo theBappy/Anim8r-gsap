@@ -35,8 +35,7 @@ const App = () => {
             <Benefit />
             <Testimonial />
           </div>
-          {/* <Footer /> */}
-          <div className="h-dvh border-red-500" />
+          <Footer />
         </div>
       </div>
     </main>
