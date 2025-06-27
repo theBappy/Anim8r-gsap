@@ -5,6 +5,7 @@ import { ScrollSmoother, ScrollTrigger } from "gsap/all";
 import About from "./sections/about";
 import Flavor from "./sections/flavor";
 import { useGSAP } from "@gsap/react";
+import Nutrition from "./sections/nutrition";
 
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -26,6 +27,7 @@ const App = () => {
           <Hero />
           <About />
           <Flavor />
+          <Nutrition />
           <div className="h-dvh border-red-500" />
         </div>
       </div>
